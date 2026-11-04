@@ -270,6 +270,9 @@ void iniciarCPU(CPU *cpu, RAM *ram, int tamanhoCache1, int tamanhoCache2, int ta
 
             /* FINALIZAR */
             case -1:
+                imprimirCache(&cpu->cache1);
+                imprimirCache(&cpu->cache2);
+                imprimirCache(&cpu->cache3);
                 imprimirResultados(cpu);
                 break;
 

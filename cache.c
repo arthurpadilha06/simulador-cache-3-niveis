@@ -371,16 +371,10 @@ void imprimirCache(CACHE *cacheX){
     printf("\nTamanho da memória cache: %d", cacheX->tamanho);
 
     for(int i = 0; i < cacheX->tamanho; i++) {
-        printf("\n\nEnd Bloco: %d", getDadoCACHE(cacheX, i).endBloco);
-        printf("Hit: %d", getDadoCACHE(cacheX, i).cacheHit);
-        printf("Custo: %d", getDadoCACHE(cacheX, i).custo);
-        printf("Atualizado: %d", getDadoCACHE(cacheX, i).atualizado);
-        
-        printf("\n");
-
-        for(int j = 0; j < PALAVRAS_POR_BLOCO; j++){
-            printf("\nPalavra %d: %d", j+1, getDadoCACHE(cacheX, i).palavras[j]);
-        }
+        printf("\nEnd Bloco: %d", getDadoCACHE(cacheX, i).endBloco);
+        printf(" Hit: %d", getDadoCACHE(cacheX, i).cacheHit);
+        printf(" Custo: %d", getDadoCACHE(cacheX, i).custo);
+        printf(" Atualizado: %d", getDadoCACHE(cacheX, i).atualizado);
     }
 }
 
