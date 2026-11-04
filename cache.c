@@ -368,7 +368,7 @@ void imprimirCache(CACHE *cacheX){
     if(cacheX == NULL)
         return;
 
-    printf("\nTamanho da memória cache: %d", cacheX->tamanho);
+    printf("\n\nTamanho da memória cache: %d", cacheX->tamanho);
 
     for(int i = 0; i < cacheX->tamanho; i++) {
         printf("\nEnd Bloco: %d", getDadoCACHE(cacheX, i).endBloco);
