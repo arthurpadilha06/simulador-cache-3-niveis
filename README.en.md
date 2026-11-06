@@ -139,7 +139,7 @@ What the tests showed:
 
 ## Authors
 
-- Member name – [@user](https://github.com/user)
-- Member name – [@user](https://github.com/user)
+- Arthur Padilha de Oliveira – [@arthurpadilha06](https://github.com/arthurpadilha06)
+
 
 Instruction generator provided by the course (Luísa Calegari, Thiago Cecote and Josué Vila Real).
