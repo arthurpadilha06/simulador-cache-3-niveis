@@ -135,7 +135,6 @@ O que os testes mostraram:
 
 ## Autores
 
-- Nome do integrante – [@usuario](https://github.com/usuario)
-- Nome do integrante – [@usuario](https://github.com/usuario)
+- Arthur Padilha de Oliveira – [@arthurpadilha06](https://github.com/arthurpadilha06)
 
 Gerador de instruções fornecido na disciplina (Luísa Calegari, Thiago Cecote e Josué Vila Real).
